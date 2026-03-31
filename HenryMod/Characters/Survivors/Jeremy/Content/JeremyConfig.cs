@@ -1,9 +1,9 @@
 ﻿using BepInEx.Configuration;
-using HenryMod.Modules;
+using JeremyMod.Modules;
 
-namespace HenryMod.Survivors.Henry
+namespace JeremyMod.Survivors.Henry
 {
-    public static class HenryConfig
+    public static class JeremyConfig
     {
         public static ConfigEntry<bool> someConfigBool;
         public static ConfigEntry<float> someConfigFloat;

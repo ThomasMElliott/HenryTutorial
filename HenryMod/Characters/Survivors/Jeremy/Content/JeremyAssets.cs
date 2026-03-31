@@ -1,12 +1,12 @@
 ﻿using RoR2;
 using UnityEngine;
-using HenryMod.Modules;
+using JeremyMod.Modules;
 using System;
 using RoR2.Projectile;
 
-namespace HenryMod.Survivors.Henry
+namespace JeremyMod.Survivors.Henry
 {
-    public static class HenryAssets
+    public static class JeremyAssets
     {
         // particle effects
         public static GameObject swordSwingEffect;
