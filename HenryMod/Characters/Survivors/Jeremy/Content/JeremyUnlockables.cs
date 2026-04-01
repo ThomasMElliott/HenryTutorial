@@ -11,7 +11,6 @@ namespace JeremyMod.Survivors.Jeremy
 
         public static void Init()
         {
-            // TODO: Unity throwing null reference exception somewhere in here
             masterySkinUnlockableDef = Modules.Content.CreateAndAddUnlockbleDef(
                 JeremyMasteryAchievement.unlockableIdentifier,
                 Modules.Tokens.GetAchievementNameToken(JeremyMasteryAchievement.identifier),
