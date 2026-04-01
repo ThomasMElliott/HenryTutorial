@@ -4,7 +4,7 @@ using JeremyMod.Modules;
 using System;
 using RoR2.Projectile;
 
-namespace JeremyMod.Survivors.Henry
+namespace JeremyMod.Survivors.Jeremy
 {
     public static class JeremyAssets
     {

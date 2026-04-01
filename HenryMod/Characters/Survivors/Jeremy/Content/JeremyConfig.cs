@@ -1,7 +1,7 @@
 ﻿using BepInEx.Configuration;
 using JeremyMod.Modules;
 
-namespace JeremyMod.Survivors.Henry
+namespace JeremyMod.Survivors.Jeremy
 {
     public static class JeremyConfig
     {

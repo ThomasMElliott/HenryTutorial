@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace JeremyMod.Survivors.Henry
+namespace JeremyMod.Survivors.Jeremy
 {
     public static class JeremyStaticValues
     {

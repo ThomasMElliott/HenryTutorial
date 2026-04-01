@@ -1,6 +1,6 @@
-﻿using JeremyMod.Survivors.Henry.SkillStates;
+﻿using JeremyMod.Survivors.Jeremy.SkillStates;
 
-namespace JeremyMod.Survivors.Henry
+namespace JeremyMod.Survivors.Jeremy
 {
     public static class JeremyStates
     {

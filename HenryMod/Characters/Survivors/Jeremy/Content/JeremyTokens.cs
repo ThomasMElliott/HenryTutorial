@@ -1,14 +1,14 @@
 ﻿using System;
 using JeremyMod.Modules;
-using JeremyMod.Survivors.Henry.Achievements;
+using JeremyMod.Survivors.Jeremy.Achievements;
 
-namespace JeremyMod.Survivors.Henry
+namespace JeremyMod.Survivors.Jeremy
 {
     public static class JeremyTokens
     {
         public static void Init()
         {
-            AddHenryTokens();
+            AddJeremyTokens();
 
             ////uncomment this to spit out a lanuage file with all the above tokens that people can translate
             ////make sure you set Language.usingLanguageFolder and printingEnabled to true
@@ -16,33 +16,33 @@ namespace JeremyMod.Survivors.Henry
             ////refer to guide on how to build and distribute your mod with the proper folders
         }
 
-        public static void AddHenryTokens()
+        public static void AddJeremyTokens()
         {
-            string prefix = JeremySurvivor.HENRY_PREFIX;
+            string prefix = JeremySurvivor.JEREMY_PREFIX;
 
-            string desc = "Henry is a skilled fighter who makes use of a wide arsenal of weaponry to take down his foes.<color=#CCD3E0>" + Environment.NewLine + Environment.NewLine
+            string desc = "Jeremy is a skilled fighter who makes use of a wide arsenal of weaponry to take down his foes.<color=#CCD3E0>" + Environment.NewLine + Environment.NewLine
              + "< ! > Sword is a good all-rounder while Boxing Gloves are better for laying a beatdown on more powerful foes." + Environment.NewLine + Environment.NewLine
              + "< ! > Pistol is a powerful anti air, with its low cooldown and high damage." + Environment.NewLine + Environment.NewLine
              + "< ! > Roll has a lingering armor buff that helps to use it aggressively." + Environment.NewLine + Environment.NewLine
              + "< ! > Bomb can be used to wipe crowds with ease." + Environment.NewLine + Environment.NewLine;
 
-            string outro = "..and so he left, searching for a new identity.";
+            string outro = "..and so he left, setting off on a search for himself once again.";
             string outroFailure = "..and so he vanished, forever a blank slate.";
 
-            Language.Add(prefix + "NAME", "Henry");
+            Language.Add(prefix + "NAME", "Jeremy");
             Language.Add(prefix + "DESCRIPTION", desc);
             Language.Add(prefix + "SUBTITLE", "The Chosen One");
-            Language.Add(prefix + "LORE", "sample lore");
+            Language.Add(prefix + "LORE", "Jeremy the frickin' GOAT fr but not really");
             Language.Add(prefix + "OUTRO_FLAVOR", outro);
             Language.Add(prefix + "OUTRO_FAILURE", outroFailure);
 
             #region Skins
-            Language.Add(prefix + "MASTERY_SKIN_NAME", "Alternate");
+            Language.Add(prefix + "MASTERY_SKIN_NAME", "Master");
             #endregion
 
             #region Passive
-            Language.Add(prefix + "PASSIVE_NAME", "Henry passive");
-            Language.Add(prefix + "PASSIVE_DESCRIPTION", "Sample text.");
+            Language.Add(prefix + "PASSIVE_NAME", "Jeremy passive");
+            Language.Add(prefix + "PASSIVE_DESCRIPTION", "Is Jeremy");
             #endregion
 
             #region Primary
@@ -66,8 +66,8 @@ namespace JeremyMod.Survivors.Henry
             #endregion
 
             #region Achievements
-            Language.Add(Tokens.GetAchievementNameToken(JeremyMasteryAchievement.identifier), "Henry: Mastery");
-            Language.Add(Tokens.GetAchievementDescriptionToken(JeremyMasteryAchievement.identifier), "As Henry, beat the game or obliterate on Monsoon.");
+            Language.Add(Tokens.GetAchievementNameToken(JeremyMasteryAchievement.identifier), "Jeremy: Mastery");
+            Language.Add(Tokens.GetAchievementDescriptionToken(JeremyMasteryAchievement.identifier), "As Jeremy, beat the game or obliterate on Monsoon.");
             #endregion
         }
     }

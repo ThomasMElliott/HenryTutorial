@@ -2,7 +2,7 @@
 using RoR2;
 using UnityEngine;
 
-namespace JeremyMod.Survivors.Henry.SkillStates
+namespace JeremyMod.Survivors.Jeremy.SkillStates
 {
     public class SlashCombo : BaseMeleeAttack
     {

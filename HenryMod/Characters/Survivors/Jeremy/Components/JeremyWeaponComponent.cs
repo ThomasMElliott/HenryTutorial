@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace JeremyMod.Survivors.Henry.Components
+namespace JeremyMod.Survivors.Jeremy.Components
 {
     internal class JeremyWeaponComponent : MonoBehaviour
     {

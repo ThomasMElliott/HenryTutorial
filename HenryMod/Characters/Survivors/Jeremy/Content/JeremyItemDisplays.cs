@@ -11,7 +11,7 @@ using UnityEngine;
                     {localScale})
 */
 
-namespace JeremyMod.Survivors.Henry
+namespace JeremyMod.Survivors.Jeremy
 {
     public class JeremyItemDisplays : ItemDisplaysBase
     {
