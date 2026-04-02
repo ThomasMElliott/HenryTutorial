@@ -13,6 +13,9 @@ namespace JeremyMod.Survivors.Jeremy
             Modules.Content.AddEntityState(typeof(Roll));
 
             Modules.Content.AddEntityState(typeof(ThrowBomb));
+
+            // My new one
+            Modules.Content.AddEntityState(typeof(Spray));
         }
     }
 }

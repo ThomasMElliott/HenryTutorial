@@ -273,7 +273,42 @@ namespace JeremyMod.Survivors.Jeremy
 
             });
 
-            Skills.AddSecondarySkills(bodyPrefab, secondarySkillDef1);
+            // My custom skill
+            SkillDef secondarySkillDef2 = Skills.CreateSkillDef(new SkillDefInfo
+            {
+                skillName = "HenryUzi",
+                skillNameToken = JEREMY_PREFIX + "SECONDARY_UZI_NAME",
+                skillDescriptionToken = JEREMY_PREFIX + "SECONDARY_UZI_DESCRIPTION",
+                keywordTokens = new string[] { "KEYWORD_AGILE" },
+                skillIcon = assetBundle.LoadAsset<Sprite>("texUziIcon"),
+
+                activationState = new EntityStates.SerializableEntityStateType(typeof(SkillStates.Spray)),
+                // TODO: Idk about this line
+                activationStateMachineName = "Weapon2",
+                // -
+                interruptPriority = EntityStates.InterruptPriority.Skill,
+
+                baseRechargeInterval = 2f,
+                baseMaxStock = 1,
+
+                rechargeStock = 1,
+                requiredStock = 1,
+                stockToConsume = 1,
+
+                resetCooldownTimerOnUse = false,
+                fullRestockOnAssign = true,
+                dontAllowPastMaxStocks = false,
+                mustKeyPress = false,
+                beginSkillCooldownOnSkillEnd = false,
+
+                isCombatSkill = true,
+                canceledFromSprinting = false,
+                cancelSprintingOnActivation = false,
+                forceSprintDuringState = false,
+
+            });
+
+            Skills.AddSecondarySkills(bodyPrefab, secondarySkillDef1, secondarySkillDef2);
         }
 
         private void AddUtiitySkills()
