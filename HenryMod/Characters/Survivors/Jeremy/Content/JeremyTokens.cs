@@ -52,7 +52,10 @@ namespace JeremyMod.Survivors.Jeremy
 
             #region Secondary
             Language.Add(prefix + "SECONDARY_GUN_NAME", "Handgun");
-            Language.Add(prefix + "SECONDARY_GUN_DESCRIPTION", Tokens.agilePrefix + $"Fire a handgun for <style=cIsDamage>{100f * JeremyStaticValues.gunDamageCoefficient}% damage</style>.");
+            Language.Add(prefix + "SECONDARY_GUN_DESCRIPTION", Tokens.agilePrefix + $" Fire a handgun for <style=cIsDamage>{100f * JeremyStaticValues.gunDamageCoefficient}% damage</style>.");
+
+            Language.Add(prefix + "SECONDARY_UZI_NAME", "Uzi");
+            Language.Add(prefix + "SECONDARY_UZI_DESCRIPTION", Tokens.agilePrefix + $" Fire an Uzi for <style=cIsDamage>{100f * JeremyStaticValues.gunDamageCoefficient}% damage</style> multiple times.");
             #endregion
 
             #region Utility

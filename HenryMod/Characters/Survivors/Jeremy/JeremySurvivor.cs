@@ -288,7 +288,7 @@ namespace JeremyMod.Survivors.Jeremy
                 // -
                 interruptPriority = EntityStates.InterruptPriority.Skill,
 
-                baseRechargeInterval = 2f,
+                baseRechargeInterval = 2.6f,
                 baseMaxStock = 1,
 
                 rechargeStock = 1,
